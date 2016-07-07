@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+h1, h2, h3, h4, h5, h6, input, li {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  height: 10vh;
+  width: 100%;
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  padding-top: 3vh;
+}
+#todoApp {
+  text-align: center;
+}
+
+#todoApp ul {
+  margin: 30px auto;
+  width: 60%;
+}
+#todoApp li {
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+#todoApp li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+input {
+  width: 25%;
+  height: 25px;
+}
+button {
+  margin: 10px;
+  height: 35px;
+  width: 150px;
+  border: none;
+  background:
+}
+
+footer {
+  height: 10vh;
+  position: absolute;
+  top: 100% - 10vh;
+  background-color: #333;
+}
